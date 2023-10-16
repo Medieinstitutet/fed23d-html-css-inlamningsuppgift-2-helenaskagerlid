@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(89, 64, 94);
+}
+
+main {
+    border: 2px solid rgb(176, 119, 128);
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 16px;
+}
+
+header {
+    flex-direction: column;
+}
+
+.page1 {
+    grid-column: span 11;
+    min-height: 100vh;
+    
+    .top, .bottom {
+        display: grid;
+        gap: 16px;
+        grid-template-columns: repeat(11, 1fr);
+    }
+}
+
+.top {
+    .pagetitle {
+        grid-column: span 4;
+    }
+    .textpage1 {
+        grid-column: span 7;
+    }
+}
+
+.bottom {
+    .saladimage {
+        grid-column: span 5;
+    }
+    .text2page1 {
+        grid-column: span 6;
+    }
+}
