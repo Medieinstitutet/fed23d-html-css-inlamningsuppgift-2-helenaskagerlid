@@ -17,3 +17,33 @@ header {
     }
 }
 
+
+
+.page1 {
+    padding: 2rem;
+}
+
+.pagetitle {
+    span {
+      font-family: jockey-one, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+  
+    span:nth-child(1) {
+      color: #00ff39;
+    }
+  
+    span:nth-child(2) {
+      color: #ab76ff;
+    }
+  
+    span:nth-child(3) {
+      color: #fff136;
+    }
+  } 
+
+.text1page1 {
+    font-family: roboto condensed, sans-serif;
+}
