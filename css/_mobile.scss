@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: black;
 }
 
 header {
@@ -17,10 +17,10 @@ header {
     }
 }
 
-
-
 .page1 {
-    padding: 2rem;
+        padding: 2rem;
+        border-top: 5px solid #fff136;
+        border-bottom: 5px solid #fff136;
 }
 
 .pagetitle {
@@ -46,4 +46,20 @@ header {
 
 .text1page1 {
     font-family: roboto condensed, sans-serif;
+    color: #00ff39;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.text2page1 {
+    font-family: roboto condensed, sans-serif;
+    color: #ab76ff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.saladimage {
+    max-width: 25rem;
+    max-height: 25rem;
+    padding: 2rem;
 }
