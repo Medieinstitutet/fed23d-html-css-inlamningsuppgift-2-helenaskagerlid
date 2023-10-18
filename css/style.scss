@@ -2,6 +2,10 @@
 
 @import 'mobile';
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 769px) {
   @import 'desktop';
+}
+
+@media  screen and (max-width: 480px){
+  @import 'mobile';
 }
