@@ -7,13 +7,16 @@ header {
     justify-content: space-between;
     background-color: black;
     color: white;
+    padding: 0;
 
     h1 {
         font-family: jockey-one, sans-serif;
         text-transform: uppercase;
-        margin: 1rem 3rem;
-        font-size: 1.3rem;
-        letter-spacing: 1rem;
+        margin: 1rem 1rem;
+        font-size: 1.7rem;
+        letter-spacing: 0.5rem;
+        justify-content: center;
+        white-space: nowrap;
     }
 }
 
@@ -21,6 +24,7 @@ header {
         padding: 2rem;
         border-top: 5px solid #fff136;
         border-bottom: 5px solid #fff136;
+        text-align: center;
 }
 
 .pagetitle {
@@ -59,7 +63,7 @@ header {
 }
 
 .saladimage {
-    max-width: 25rem;
+    max-width: 90%;
     max-height: 25rem;
     padding: 2rem;
 }
