@@ -1,4 +1,10 @@
 header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    border-bottom: #fff136 solid 0.3rem;
+    width: 100vh;
+    z-index: 100;
     display: flex;
 
   h1 {
@@ -7,6 +13,7 @@ header {
     letter-spacing: 0.4rem;
     justify-content: center;
     white-space: nowrap;
+    z-index: 101;
   }
 }
 
@@ -96,14 +103,16 @@ header {
   .gallery {
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+    transform: rotate(90deg);
 
     figure {
       margin: 0;
     }
 
     .meze {
-      height: 15rem;
-      width: 12rem;
+      height: 20rem;
+      width: 15rem;
     }
 
     .hummus {
@@ -140,8 +149,63 @@ header {
     justify-content: center;
   }
 
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+
   .contactphoto {
-    height: 10rem;
-    width: 15rem;
+    height: 12rem;
+    width: 20rem;
+  }
+
+  .contact-form {
+    margin-bottom: 1rem;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 1rem;
+    
+    label {
+      margin: 0.2rem 0;
+    }
+
+    input {
+      border: none;
+      border-radius: 10rem;
+    }
+
+    input, textarea {
+      margin: 5px 0;
+      padding: 5px;
+      font-family: roboto condensed, sans-serif;
+    }
+
+    .button-container {
+      margin-top: 1rem;
+    }
+  }
+
+    .cancel {
+      font-family: jockey-one, sans-serif;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: none;
+      border-radius: 10rem;
+      background-color: #ab76ff;
+      padding: 0.3rem 2rem 0.3rem 2rem;
+    }
+
+  .request {
+    font-family: jockey-one, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 10rem;
+    background-color: #fff136;
+    padding: 0.3rem 2rem 0.3rem 2rem;
+    margin-left: 0.3rem;
   }
 }
