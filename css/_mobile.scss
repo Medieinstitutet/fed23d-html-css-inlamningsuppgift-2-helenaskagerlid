@@ -1,36 +1,24 @@
 header {
     display: flex;
     justify-content: space-between;
-    background-color: black;
-    color: white;
     padding: 0;
 
-    h1 {
-        font-family: jockey-one, sans-serif;
-        text-transform: uppercase;
-        margin: 1rem 1rem;
-        font-size: 1.7rem;
-        letter-spacing: 0.5rem;
-        justify-content: center;
-        white-space: nowrap;
-    }
+  h1 {
+    margin: 1rem 1rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.4rem;
+    justify-content: center;
+    white-space: nowrap;
+  }
 }
 
 .page1 {
-  padding: 2rem;
+  padding: 1.2rem;
   border-top: 5px solid #fff136;
   border-bottom: 5px solid #fff136;
   text-align: center;
-}
 
-.pagetitle {
-    span {
-      font-family: jockey-one, sans-serif;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 2rem;
-    }
-  
+  .pagetitle {
     span:nth-child(1) {
       color: #00ff39;
     }
@@ -42,24 +30,109 @@ header {
     span:nth-child(3) {
       color: #fff136;
     }
-  } 
+  }
 
-.text1page1 {
-    font-family: roboto condensed, sans-serif;
-    color: #00ff39;
-    font-size: 1.3rem;
-    font-weight: bold;
+  .text1-page1 {
+    font-size: 1.1rem;
+  }
+
+  .text2-page1 {
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+    border-left: 10px #fff136;
+
+    p {
+      margin-bottom: 0.2rem;
+    }
+  
+    p span {
+      display: block;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  
+    .arrow-container {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+
+      .black-arrow {
+        align-self: flex-end;
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+    .explore {
+      margin: 0;
+      margin-top: 0.2rem;
+    }
+      
+  }
+
+  .saladwrapper {
+    position: relative;
+
+    .saladimage {
+      max-width: 90%;
+      max-height: 15rem;
+      padding: 1rem;
+    }
+
+    .white-arrow {
+        transform: rotate(90deg);
+        position: absolute;
+        bottom: 0;
+        left: 4rem;
+    }
+
+  
+  }
+
 }
 
-.text2page1 {
-    font-family: roboto condensed, sans-serif;
-    color: #ab76ff;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
+.page2 {
+  padding: 0.2;
+    
+  .gallery {
+    display: flex;
+    justify-content: center;
 
-.saladimage {
-    max-width: 90%;
-    max-height: 25rem;
-    padding: 2rem;
+    figure {
+      margin: 0;
+    }
+
+    .meze {
+      height: 15rem;
+      width: 12rem;
+    }
+
+    .hummus {
+      height: 10rem;
+      width: 18rem;
+      display: none;
+    }
+
+    .tzatziki {
+      height: 15rem;
+      width: 10rem;
+      display: none;
+      transform:rotate(180deg);
+    }
+  }
+
+  .menu {
+    display: block;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0;
+
+    .span-container {
+      display: flex;
+      justify-content: space-between;
+    }
+
+  }
+
 }
