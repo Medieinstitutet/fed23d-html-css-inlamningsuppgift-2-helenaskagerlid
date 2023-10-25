@@ -1,0 +1,69 @@
+header {
+    background-color: #000000;
+    color: #ffffff;
+
+    h1 {
+        font-family: jockey-one, sans-serif;
+        text-transform: uppercase;
+    }
+}
+
+.page1 {
+    background-color: #000000;
+
+    .pagetitle {
+        span {
+            font-family: jockey-one, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+
+    .text1-page1 {
+        font-family: roboto condensed, sans-serif;
+        color: #00ff39;
+        font-weight: bold;
+      }
+
+    .text2-page1 {
+        font-family: roboto condensed, sans-serif;
+        color: #ab76ff;
+        font-weight: bold;
+        background-color: #ffffff;
+
+        .explore {
+            color: #000000;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.page2 {
+    background-color: #fff136;
+
+    .menu-item {
+        background-color: #ffffff;
+    }
+    
+    .item-name {
+        color: #000000;
+        text-transform: uppercase;
+        font-family: jockey-one, sans-serif;
+        font-weight: bold;
+    }
+    
+    .pricetag {
+        color: #000000;
+        font-family: jockey-one, sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+.page3 {
+    background-color: #00ff39;
+}
+
+
+
