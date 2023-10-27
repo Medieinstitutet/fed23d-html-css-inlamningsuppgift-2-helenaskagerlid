@@ -3,8 +3,8 @@ header {
     color: #ffffff;
 
     h1 {
-        
-        font-family: jockey-one, sans-serif;
+        background-color: #000000;
+        font-family: 'jockey-one', 'sans-serif';
         text-transform: uppercase;
     }
 }
@@ -13,8 +13,6 @@ header {
     background-color: #000000;
 
     .pagetitle {
-        padding-top: 3.5rem;
-
         span {
             font-family: jockey-one, sans-serif;
             text-transform: uppercase;
@@ -68,7 +66,7 @@ header {
     background-color: #00ff39;
 
     .contact-heading {
-        font-family: jockey-one, sans-serif;
+        font-family: 'jockey-one', 'sans-serif';
         text-transform: uppercase;
         font-weight: bold;
     }
