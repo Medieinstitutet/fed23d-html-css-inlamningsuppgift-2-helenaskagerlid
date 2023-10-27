@@ -8,3 +8,37 @@
         padding: 2px;
     }
 }
+
+.page1 .pagetitle {
+    position: relative;
+    min-width: 300px;
+    min-height: 130px;
+    margin-top: 60px;
+
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .drizzle, .chickpeas {
+        position: absolute;
+    }
+
+    .drizzle {
+        top: -19px;
+        right: 0;
+        font-size: 2rem;
+    }
+
+    .chickpeas {
+        left: 13px;
+        bottom: -4px;
+        font-size: 1.5rem;
+    }
+
+    .tahini {
+        font-size: 4rem;
+    }
+}
