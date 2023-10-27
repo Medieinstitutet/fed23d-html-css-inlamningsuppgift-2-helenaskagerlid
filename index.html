@@ -10,11 +10,27 @@
   <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
+
   <main>
     <header>
-      <nav>
-        <div>burger</div>
-      </nav>
+
+      <input class="checkbox" type="checkbox" checked/>
+
+      <div class="nav-container">
+        <button class="burgerbutton">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+    
+        <nav>
+          <ul class="navmenu">
+            <li>Home</li>
+            <li>Menu</li>
+            <li>Book table</li>
+          </ul>
+        </nav>
+      </div>    
       <h1>Tough Cookie</h1>
     </header>
   
@@ -34,6 +50,7 @@
             cayenne Thai sun pepper.</p>
         </div>
       </section>
+
       <section class="bottom">
         <div class="text2-page1">
           <p>Crispy iceberg lettuce Caribbean red habanero 
@@ -49,20 +66,22 @@
             </svg>
           </div>
         </div>
-        <div class="saladwrapper">
-          <img class="saladimage" 
-          src="assets/photos/lettuce.jpg" 
-          alt="head of lettuce"
-          height="1763"
-          width="2203"
-          loading="lazy">
-            <svg class="white-arrow" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.08 59.36">
-            <defs><style>.cls-1{fill:none;stroke:#fff;stroke-width:5px;}</style></defs>
-            <g id="Layer_1-2">
-            <line class="cls-1" y1="29.4" x2="55.47" y2="29.4"/>
-            <line class="cls-1" x1="44.17" y1="1.77" x2="70.32" y2="27.92"/>
-            <line class="cls-1" x1="44.17" y1="57.59" x2="70.32" y2="31.44"/></g>
-            </svg>
+        <div class="relative-saladparent">
+          <div class="saladwrapper">
+            <img class="saladimage" 
+                  src="assets/photos/lettuce.jpg" 
+                  alt="head of lettuce"
+                  height="1763"
+                  width="2203"
+                  loading="lazy">
+              <svg class="white-arrow" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.08 59.36">
+              <defs><style>.cls-1{fill:none;stroke:#fff;stroke-width:5px;}</style></defs>
+              <g id="Layer_1-2">
+              <line class="cls-1" y1="29.4" x2="55.47" y2="29.4"/>
+              <line class="cls-1" x1="44.17" y1="1.77" x2="70.32" y2="27.92"/>
+              <line class="cls-1" x1="44.17" y1="57.59" x2="70.32" y2="31.44"/></g>
+              </svg>
+          </div>
         </div>
       </section>
     </div>
@@ -89,7 +108,7 @@
         </div>
       </section>
 
-      <section class="middle-page2">
+      <section class="bottom-page2">
         <ul class="menu">
             <li class="menu-item">
               <p class="item-text">
