@@ -2,9 +2,18 @@ header {
     background-color: #000000;
     color: #ffffff;
 
+    .navmenu li button {
+        font-family: 'jockey-one', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        background-color: transparent;
+        border: none;
+    }
+
     h1 {
         background-color: #000000;
-        font-family: 'jockey-one', 'sans-serif';
+        font-family: 'jockey-one', sans-serif;
+        font-weight: bold;
         text-transform: uppercase;
     }
 }
@@ -14,7 +23,7 @@ header {
 
     .pagetitle {
         span {
-            font-family: jockey-one, sans-serif;
+            font-family: 'jockey-one', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 2rem;
@@ -22,20 +31,22 @@ header {
     }
 
     .text1-page1 {
-        font-family: roboto condensed, sans-serif;
+        font-family: 'jockey-one', sans-serif;
         color: #00ff39;
         font-weight: bold;
       }
 
     .text2-page1 {
-        font-family: roboto condensed, sans-serif;
+        font-family: 'jockey-one', sans-serif;
         color: #ab76ff;
         font-weight: bold;
         background-color: #ffffff;
+        border-left: 2rem solid #fff136;
 
-        .explore {
+        .explore a {
             color: #000000;
             text-transform: uppercase;
+            text-decoration: none;
         }
     }
 }
@@ -50,13 +61,13 @@ header {
     .item-name {
         color: #000000;
         text-transform: uppercase;
-        font-family: jockey-one, sans-serif;
+        font-family: 'jockey-one', sans-serif;
         font-weight: bold;
     }
     
     .pricetag {
         color: #000000;
-        font-family: jockey-one, sans-serif;
+        font-family: 'jockey-one', sans-serif;
         font-weight: bold;
     }
 
@@ -66,18 +77,25 @@ header {
     background-color: #00ff39;
 
     .contact-heading {
-        font-family: 'jockey-one', 'sans-serif';
+        font-family: 'jockey-one', sans-serif;
         text-transform: uppercase;
         font-weight: bold;
     }
 
     label {
-        font-family: jockey-one, sans-serif;
+        font-family: 'jockey-one', sans-serif;
         text-transform: uppercase;
         font-weight: bold;
     }
 
 }
 
+footer {
+    background-color: #ab76ff;
+
+    p {
+        font-family: 'roboto-condensed', sans-serif;
+    }
+}
 
 

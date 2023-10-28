@@ -20,7 +20,7 @@ input:checked + .nav-container button span:nth-child(3) {
 
 .burgerbutton {
     position: fixed;
-    left: 2rem;
+    left: 1rem;
     top: 1.3rem;
     width: 2.1rem;
     height: 2.1rem;
@@ -42,7 +42,7 @@ input:checked + .nav-container button span:nth-child(3) {
 .checkbox {
     position: fixed;
     top: 1.3rem;
-    left: 2rem;
+    left: 1rem;
     z-index: 3;
     width: 2rem;
     height: 2rem;
@@ -66,12 +66,16 @@ nav {
     .navmenu {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         text-align: center;
         height: 100vh;
         margin: 0;
         padding: 0;
         list-style: none;
+
+        li {
+            margin-bottom: 1.5rem;
+        }
     }
 }
 
@@ -80,4 +84,47 @@ input:checked + .nav-container nav {
     opacity: 1;
 }
 
+
+footer {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+
+    .cookies-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    p {
+        margin-left: 0.5rem;
+    }
+
+    .cookies-buttons {
+        margin-top: 0.4rem;
+
+        .accept {
+            font-family: 'roboto condensed';
+            text-transform: uppercase;
+            font-weight: bold;
+            border: none;
+            border-radius: 10rem;
+            background-color: #00ff39;
+            padding: 0.3rem 1rem 0.3rem 1rem;
+        }
+
+        .decline {
+            font-family: 'roboto condensed', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            border-radius: 10rem;
+            background-color: #fff136;
+            padding: 0.3rem 1rem 0.3rem 1rem;
+            margin-left: 0.3rem;
+        }
+    }
+    
+}
 
