@@ -16,11 +16,15 @@
     <header>
       <input class="checkbox" type="checkbox" checked/>
       <div class="nav-container">
-        <button class="burgerbutton">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
+        
+          <button class="burgerbutton">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <h1>Tough<span class="rowbreak">@</span>cookie</h1>
+       
+      
         <nav>
           <ul class="navmenu">
             <li><button>Home</button></li>
@@ -29,7 +33,6 @@
           </ul>
         </nav>
       </div>    
-      <h1>Tough Cookie</h1>
     </header>
   
     <div class="page1">
@@ -52,6 +55,21 @@
       </section>
 
       <section class="bottom">
+        <div class="saladwrapper">
+          <img class="saladimage" 
+          src="assets/photos/lettuce.jpg" 
+          alt="head of lettuce"
+          height="1763"
+          width="2203"
+          loading="lazy">
+          <svg class="white-arrow" height="2rem" width="2rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.08 59.36">
+          <defs><style>.cls-1{fill:none;stroke:#fff;stroke-width:5px;}</style></defs>
+          <g id="Layer_1-2">
+          <line class="cls-1" y1="29.4" x2="55.47" y2="29.4"/>
+          <line class="cls-1" x1="44.17" y1="1.77" x2="70.32" y2="27.92"/>
+          <line class="cls-1" x1="44.17" y1="57.59" x2="70.32" y2="31.44"/></g>
+          </svg>
+        </div>
         <div class="text2-page1">
           <p>Crispy iceberg lettuce Caribbean red habanero 
           blueberry chia seed jam overflowing berries roasted butternut squash 
@@ -66,23 +84,6 @@
             </svg>
           </div>
         </div>
-        <div class="relative-saladparent">
-          <div class="saladwrapper">
-            <img class="saladimage" 
-                  src="assets/photos/lettuce.jpg" 
-                  alt="head of lettuce"
-                  height="1763"
-                  width="2203"
-                  loading="lazy">
-              <svg class="white-arrow" height="3rem" width="3rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72.08 59.36">
-              <defs><style>.cls-1{fill:none;stroke:#fff;stroke-width:5px;}</style></defs>
-              <g id="Layer_1-2">
-              <line class="cls-1" y1="29.4" x2="55.47" y2="29.4"/>
-              <line class="cls-1" x1="44.17" y1="1.77" x2="70.32" y2="27.92"/>
-              <line class="cls-1" x1="44.17" y1="57.59" x2="70.32" y2="31.44"/></g>
-              </svg>
-          </div>
-        </div>
       </section>
     </div>
     
@@ -90,17 +91,23 @@
       <section id="top-page2">
         <div class="gallery">
           <figure>
+            <img src="assets/photos/grekiskmezerotated.jpg" alt="a blue bowl on a table with a spoon, checkpeas, olives and a slice of bread"
+            height="2345" width="1876"
+            loading="lazy"
+            class="meze-mobile">
+          </figure>
+          <figure class="meze-container">
             <img src="assets/photos/grekiskmeze.jpg" alt="a blue bowl on a table with a spoon, checkpeas, olives and a slice of bread"
             height="2345" width="1876"
             loading="lazy"
             class="meze">
           </figure>
-          <figure>
+          <figure class="hummus-container">
             <img src="assets/photos/hummus.jpg" alt="a blue bowl of hummus with chickpeas and herbs on top"
             height="988" width="1279"
             class="hummus">
           </figure>
-          <figure>
+          <figure class="tzatziki-container">
             <img src="assets/photos/tzatziki.jpg" alt="three bowls on a blue cloth, one with tzatziki, one with beans and one with a green dressing"
             height="1947" width="1460"
             class="tzatziki">
@@ -113,8 +120,10 @@
             <li class="menu-item">
               <p class="item-text">
                 <div class="span-container">
-                <span class="item-name">Halloumi Moklieh</span>
-                <span class="menu-item-new">New!</span>
+                  <div class="item-container">
+                    <span class="item-name">Halloumi Moklieh</span>
+                    <span class="menu-item-new">New!</span>
+                  </div>
                 <span class="pricetag">195 kr</span></div>
                 <span class="ingredients">Deep-fried halloumi</span>
               </p>
@@ -133,7 +142,7 @@
                   <span class="item-name">Chiar & Laban</span>
                   <span class="pricetag">95 kr</span>
                 </div>
-                Lebanese spicy yoghurt with chopped cucumber
+                <span class="ingredients">Lebanese spicy yoghurt with chopped cucumber</span>
               </p>
             </li>
             <li class="menu-item">
@@ -142,26 +151,30 @@
                   <span class="item-name">Warak Inab</span>
                   <span class="pricetag">85 kr</span>
                 </div>
-                  Rice- and veggie-filled dolma with mint and lemon
+                  <span class="ingredients">Rice and veggie-filled dolma with mint and lemon</span>
               </p>
             </li>
             <li class="menu-item">
               <p>
                 <div class="span-container">
-                  <span class="item-name">Moutabbal Batnizian</span>
-                  <span class="menu-item-vegan">Vegan</span>
+                  <div class="item-container">
+                    <span class="item-name">Moutabbal Batnizian</span>
+                    <span class="menu-item-vegan">Vegan</span>
+                  </div>
                   <span class="pricetag">175 kr</span></div>
-                Smoked chopped aubergine, sesame paste, garlic and lemon
+                  <span class="ingredients">Smoked chopped aubergine, sesame paste, garlic and lemon</span>
               </p>
             </li>
             <li class="menu-item">
               <p>
                 <div class="span-container">
-                  <span class="item-name">Ardishoki</span>
-                  <span class="menu-item-popular">Popular</span>
+                  <div class="item-container">
+                    <span class="item-name">Ardishoki</span>
+                    <span class="menu-item-popular">Popular</span>
+                  </div>
                   <span class="pricetag">99 kr</span>
                 </div>
-                Artichoke with lemon and garlic marinade
+                <span class="ingredients">Artichoke with lemon and garlic marinade</span>
               </p>
             </li>
             <li class="menu-item">
@@ -170,7 +183,7 @@
                   <span class="item-name">Mhamara</span>
                   <span class="pricetag">123 kr</span>
                 </div>
-                Spicy bell pepper relish with crushed walnuts and pomegranate syrup
+                <span class="ingredients">Spicy bell pepper relish with crushed walnuts and pomegranate syrup</span>
               </p>
             </li>
         </ul>
@@ -224,16 +237,16 @@
           </div>
         </form>
       </section>
-      <footer>
-        <div class="cookies-container">
-          <p>You should accept cookies</p>
-          <div class="cookies-buttons">
-            <button class="accept">Accept</button>
-            <button class="decline">Decline</button>
-          </div>
-        </div>
-      </footer>
     </div>
+    <footer>
+      <div class="cookies-container">
+        <p>You should accept cookies</p>
+        <div class="cookies-buttons">
+          <button class="accept">Accept</button>
+          <button class="decline">Decline</button>
+        </div>
+      </div>
+    </footer>
   </main>
  
 </body>
