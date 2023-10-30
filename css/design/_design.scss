@@ -1,11 +1,6 @@
-.menu {
-    list-style: none;
-
-    .menu-item {
-        border-top: 2px solid #000000;
-        border-bottom: 2px solid #000000;
-        margin-bottom: 4px;
-        padding: 2px;
+h1 {
+    span {
+        color: var(--black-color);
     }
 }
 
@@ -13,7 +8,6 @@
     position: relative;
     min-width: 300px;
     min-height: 130px;
-    margin-top: 60px;
 
     div {
         position: absolute;
@@ -26,20 +20,18 @@
         position: absolute;
     }
 
-    .drizzle {
-        top: -19px;
-        right: 0;
-        font-size: 2rem;
-    }
-
     .chickpeas {
-        left: 13px;
-        bottom: -4px;
-        font-size: 1.5rem;
         z-index: -1;
     }
+}
 
-    .tahini {
-        font-size: 4rem;
+.menu {
+    list-style: none;
+
+    .menu-item {
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
+        margin-bottom: 4px;
+        padding: 2px;
     }
 }
