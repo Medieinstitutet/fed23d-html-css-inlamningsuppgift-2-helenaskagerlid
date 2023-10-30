@@ -1,9 +1,9 @@
 header {
-    background-color: #000000;
+    background-color: var(--black-color);
     color: #ffffff;
 
     .navmenu li button {
-        font-family: 'jockey-one', sans-serif;
+        font-family: 'Jockey One', sans-serif;
         text-transform: uppercase;
         font-size: 2.5rem;
         background-color: transparent;
@@ -11,19 +11,19 @@ header {
     }
 
     h1 {
-        background-color: #000000;
-        font-family: 'jockey-one', sans-serif;
+        background-color: var(--black-color);
+        font-family: 'Jockey One', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
     }
 }
 
 .page1 {
-    background-color: #000000;
+    background-color: var(--black-color);
 
     .pagetitle {
         span {
-            font-family: 'jockey-one', sans-serif;
+            font-family: 'Jockey One', sans-serif;
             text-transform: uppercase;
             font-weight: bold;
             font-size: 2rem;
@@ -31,20 +31,20 @@ header {
     }
 
     .text1-page1 {
-        font-family: 'jockey-one', sans-serif;
-        color: #00ff39;
+        font-family: 'Jockey One', sans-serif;
+        color: var(--green-color);
         font-weight: bold;
       }
 
     .text2-page1 {
-        font-family: 'jockey-one', sans-serif;
-        color: #ab76ff;
+        font-family: 'Jockey One', sans-serif;
+        color: var(--purple-color);
         font-weight: bold;
         background-color: #ffffff;
-        border-left: 2rem solid #fff136;
+        border-left: 2rem solid var(--yellow-color);
 
         .explore a {
-            color: #000000;
+            color: var(--black-color);
             text-transform: uppercase;
             text-decoration: none;
         }
@@ -52,38 +52,38 @@ header {
 }
 
 .page2 {
-    background-color: #fff136;
+    background-color: var(--yellow-color);
 
     .menu-item {
-        background-color: #ffffff;
+        background-color: var(--white-color);
     }
     
     .item-name {
-        color: #000000;
+        color: var(--black-color);
         text-transform: uppercase;
-        font-family: 'jockey-one', sans-serif;
+        font-family: 'Jockey One', sans-serif;
         font-weight: bold;
     }
     
     .pricetag {
-        color: #000000;
-        font-family: 'jockey-one', sans-serif;
+        color: var(--black-color);
+        font-family: 'Jockey One', sans-serif;
         font-weight: bold;
     }
 
 }
 
 .page3 {
-    background-color: #00ff39;
+    background-color: var(--green-color);
 
     .contact-heading {
-        font-family: 'jockey-one', sans-serif;
+        font-family: 'Jockey One', sans-serif;
         text-transform: uppercase;
         font-weight: bold;
     }
 
     label {
-        font-family: 'jockey-one', sans-serif;
+        font-family: 'Jockey One', sans-serif;
         text-transform: uppercase;
         font-weight: bold;
     }
@@ -91,10 +91,10 @@ header {
 }
 
 footer {
-    background-color: #ab76ff;
+    background-color: var(--purple-color);
 
     p {
-        font-family: 'roboto-condensed', sans-serif;
+        font-family: 'Roboto Condensed', sans-serif;
     }
 }
 
