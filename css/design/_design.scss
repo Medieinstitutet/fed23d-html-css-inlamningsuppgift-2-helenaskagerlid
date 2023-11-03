@@ -29,9 +29,22 @@ h1 {
     list-style: none;
 
     .menu-item {
-        border-top: 2px solid #000000;
-        border-bottom: 2px solid #000000;
+        border-top: 2px solid var(--black-color);
+        border-bottom: 2px solid var(--black-color);
         margin-bottom: 4px;
         padding: 2px;
+    }
+}
+.page3 {
+
+    .contactphoto {
+        display: block;
+        filter: blur(0.1rem);
+        position: relative;
+        max-width: 100%;
+        background-image: url('../assets/photos/dukatbord.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
     }
 }
