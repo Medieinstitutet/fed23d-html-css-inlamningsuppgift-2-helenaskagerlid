@@ -2,6 +2,12 @@ body {
     background-color: var(--black-color);
 }
 
+/* 
+----------------------------------------------
+------------------ HEADER --------------------
+----------------------------------------------
+*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -12,28 +18,30 @@ header {
     background-color: var(--black-color);
     z-index: 3;
 
-    .burgerbutton:hover > .one {
-        transform: translateX(-0px);
-    }
-  
-}
-
-.nav-container h1 {
-    margin-top: 60px;
-    margin-left: 14px;
-    position: fixed;
-    width: 30px;
-    height: auto;
-    background-color: var(--black-color);
-    font-size: 2.3rem;
-    z-index: 2;
-    text-align: center;
-
-    .thoughcookie {
-        height: 20px;
-    }
+    h1 {
+        margin-top: 60px;
+        margin-left: 14px;
+        position: fixed;
+        width: 30px;
+        height: auto;
+        background-color: var(--black-color);
+        font-size: 2.3rem;
+        z-index: 2;
+        text-align: center;
     
+        .thoughcookie {
+            height: 20px;
+        }
+        
+    }
+
 }
+
+/* 
+----------------------------------------------
+-------------- PAGE 1 TOP --------------------
+----------------------------------------------
+*/
 
 .page1 {
     margin-left: 8.3vw;
@@ -72,6 +80,12 @@ header {
         font-size: 2.2rem;
         text-align: left;
     }
+
+ /* 
+----------------------------------------------
+------------------ PAGE 1 BOTTOM --------------------
+----------------------------------------------
+*/
 
     .bottom {
         display: grid;
@@ -120,6 +134,12 @@ header {
         }
     }
 }
+
+/* 
+----------------------------------------------
+------------------ PAGE 2 TOP --------------------
+----------------------------------------------
+*/
 
 .page2 #top-page2 {
  
@@ -183,6 +203,12 @@ header {
 
 }
 
+/* 
+----------------------------------------------
+-------------- PAGE 2 BOTTOM -----------------
+----------------------------------------------
+*/
+
 .page2 {
     margin-left: 8.3vw;
 
@@ -214,6 +240,12 @@ header {
         font-size: 1.3rem;
     }
 }
+
+/* 
+----------------------------------------------
+-------------- PAGE 3 TOP --------------------
+----------------------------------------------
+*/
 
 .page3 {
     margin-left: 8.3vw;
@@ -280,7 +312,7 @@ header {
       }
               
       .material-symbols-outlined {
-        font-size: 45px;
+        font-size: 3rem;
         margin-right: 10px;
         color: var(--light-blue-color);
         text-shadow: -2px -1px 0px var(--black-color);
@@ -295,6 +327,12 @@ header {
         white-space: pre-line;
         font-size: 1.2rem;
       }
+
+      /* 
+----------------------------------------------
+----------- PAGE 3 BOTTOM --------------------
+----------------------------------------------
+*/
 
     .contact-form { 
         order: 1;
@@ -325,6 +363,12 @@ header {
     }
     
 }
+
+/* 
+----------------------------------------------
+-------------- FOOTER/COOKIES ----------------
+----------------------------------------------
+*/
 
 footer {
     height: 8vh;
