@@ -1,0 +1,44 @@
+/* 
+----------------------------------------------
+Planen med denna partial var att samla all design-relaterad kod på samma ställe som var samma för alla versioner. 
+Men känns lite som att jag glömde av den med tiden ^^ Så vet inte hur smart val det var. 
+Men låter den vara kvar eftersom jag dels tänker det är bra att se processen men också för att sidan ser 
+konstigt ut när jag tar bort det ^^.
+----------------------------------------------
+*/
+
+.page1 .pagetitle {
+    position: relative;
+    min-width: 300px;
+    min-height: 130px;
+
+    div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    .drizzle, .chickpeas {
+        position: absolute;
+    }
+
+    .chickpeas {
+        z-index: -1;
+    }
+}
+
+.menu {
+    list-style: none;
+
+    .menu-item {
+        border-top: 2px solid var(--black-color);
+        border-bottom: 2px solid var(--black-color);
+        margin-bottom: 4px;
+        padding: 2px;
+    }
+}
+
+html {
+    background-color: var(--black-color);
+}

@@ -1,0 +1,101 @@
+header {
+    background-color: var(--black-color);
+    color: #ffffff;
+
+    .navmenu li button {
+        font-family: 'Jockey One', sans-serif;
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        background-color: transparent;
+        border: none;
+    }
+
+    h1 {
+        background-color: var(--black-color);
+        font-family: 'Jockey One', sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.page1 {
+    background-color: var(--black-color);
+
+    .pagetitle {
+        span {
+            font-family: 'Jockey One', sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+    }
+
+    .text1-page1 {
+        font-family: 'Jockey One', sans-serif;
+        color: var(--green-color);
+        font-weight: bold;
+      }
+
+    .text2-page1 {
+        font-family: 'Jockey One', sans-serif;
+        color: var(--purple-color);
+        font-weight: bold;
+        background-color: #ffffff;
+        border-left: 2rem solid var(--yellow-color);
+
+        .explore a {
+            color: var(--black-color);
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+    }
+}
+
+.page2 {
+    background-color: var(--yellow-color);
+
+    .menu-item {
+        background-color: var(--white-color);
+    }
+    
+    .item-name {
+        color: var(--black-color);
+        text-transform: uppercase;
+        font-family: 'Jockey One', sans-serif;
+        font-weight: bold;
+    }
+    
+    .pricetag {
+        color: var(--black-color);
+        font-family: 'Jockey One', sans-serif;
+        font-weight: bold;
+    }
+
+}
+
+.page3 {
+    background-color: var(--green-color);
+
+    .contact-heading {
+        font-family: 'Jockey One', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    label {
+        font-family: 'Jockey One', sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+}
+
+footer {
+    background-color: var(--purple-color);
+
+    p {
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+

@@ -1,0 +1,439 @@
+/* 
+----------------------------------------------
+------------------ HEADER --------------------
+----------------------------------------------
+*/
+
+header {
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 60px;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+
+  h1 {
+    position: fixed;
+    font-size: 2.5rem;
+    z-index: 2;
+    width: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+  }
+}
+
+/* 
+----------------------------------------------
+------------------ PAGE 1 TOP ----------------
+----------------------------------------------
+*/
+
+.page1 {
+  padding: 1.2rem;
+  text-align: center;
+  margin-left: 3rem;
+  border-left: 20px solid var(--yellow-color);
+  border-right: 10px solid var(--yellow-color);
+
+  .pagetitle {
+    margin-top: 10px;
+
+    span:nth-child(1) {
+      color: var(--purple-color); 
+    }
+  
+    span:nth-child(2) {
+      color: var(--green-color);
+    }
+  
+    span:nth-child(3) {
+      color: var(--yellow-color);
+    }
+
+    .drizzle {
+    top: -19px;
+    right: 0;
+    font-size: 2rem;
+  }
+
+  .chickpeas {
+    left: 13px;
+    bottom: -4px;
+    font-size: 1.5rem;
+  }
+
+  .tahini {
+    font-size: 4rem;
+  }
+  }
+
+  .text1-page1 {
+    font-size: 1.2rem;
+    max-width: 80vh;
+    max-height: 13rem;
+    width: auto;
+    height: auto;
+  }
+
+  /* 
+----------------------------------------------
+----------- PAGE 1 BOTTOM --------------------
+----------------------------------------------
+*/
+
+  .text2-page1 {
+    font-size: 1.2rem;
+    padding: 0.1rem;
+    margin: 0rem 0.4rem 0rem 0.4rem;
+    border-left: 8px solid var(--yellow-color);
+
+    p {
+      margin-bottom: 0.2rem;
+    }
+  
+    p span {
+      display: block;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  
+    .arrow-container {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+
+      .black-arrow {
+        align-self: flex-end;
+        margin-left: 0.5rem;
+        margin-bottom: 0.1rem;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+  
+    .explore a {
+      margin-bottom: 0.7rem;
+    }
+      
+  }
+
+  .saladwrapper {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1rem;
+  }
+
+  .saladimage {
+    position: relative;
+    max-width: 80%;
+    max-height: 16rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    &:hover {
+      .white-arrow {
+        bottom: 15px;
+      }
+    }
+    }
+
+    .white-arrow {
+      transform: rotate(90deg);
+      position: absolute;
+      bottom: 10px;
+      left: 30%;
+    }
+  }
+
+
+  /* 
+----------------------------------------------
+------------------ PAGE 2 TOP --------------------
+----------------------------------------------
+*/
+
+
+.page2 {
+  padding: 0.1rem;
+  margin-left: 3.7rem;
+  border-left: 10px solid var(--yellow-color);
+  border-right: 10px solid var(--yellow-color);
+    
+  .gallery {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    figure {
+      margin: 0;
+      padding: 0;
+    }
+
+    .meze-mobile {
+      height: 15rem;
+      width: 20rem;
+      margin-top: 0.5rem;
+    }
+
+    .meze {
+      display: none;
+    }
+
+    .hummus {
+      height: 10rem;
+      width: 18rem;
+      display: none;
+    }
+
+    .tzatziki {
+      height: 15rem;
+      width: 10rem;
+      display: none;
+    }
+  }
+
+  /* 
+----------------------------------------------
+----------- PAGE 2 BOTTOM --------------------
+----------------------------------------------
+*/
+
+  .menu {
+    display: block;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0;
+  }
+
+  .span-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .menu-item-new {
+    margin-block: 1px;
+    margin-left:0;
+    background-color: var(--purple-color);
+    display: inline-block;
+    padding: 0 12px;
+    transform: rotate(3deg);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .menu-item-vegan {
+    margin-block: 1px;
+    margin-left: 8px;
+    background-color: var(--green-color);
+    display: inline-block;
+    padding: 0 12px;
+    transform: rotate(-3deg);
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .menu-item-popular {
+    margin-block: 1px;
+    margin-left:8px;
+    background-color: var(--yellow-color);
+    display: inline-block;
+    padding: 0 12px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 0.8rem;
+  }
+
+  .ingredients {
+    flex-wrap: wrap;
+  }
+  
+  
+}
+
+/* 
+----------------------------------------------
+------------------ PAGE 3 TOP ----------------
+----------------------------------------------
+*/
+
+.page3 {
+  padding: 0rem;
+  margin-left: 3rem;
+  border-left: 5px solid var(--white-color);
+    
+  .contact figure {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  .contactphoto {
+    display: block;
+    filter: blur(0.1rem);
+    position: relative;
+    max-width: 100%;
+    background-image: url('../assets/photos/dukatbord.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%; 
+    height: 300px; 
+    margin-top: 2rem;
+    
+  }
+
+  .icons-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+          
+  .material-symbols-outlined {
+    font-size: 2rem;
+    margin-right: 10px;
+    color: var(--light-blue-color);
+    text-shadow: -2px -1px 0px var(--black-color);
+  }
+          
+  a {
+    text-decoration: none;
+    color: var(--light-blue-color);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold; 
+    text-shadow: -2px -1px 0px var(--black-color);
+    white-space: pre-line;
+  }
+
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+
+  .contact-form {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    margin-left: 1rem;
+    
+    label {
+      margin: 0.2rem 0;
+    }
+
+    input {
+      border: none;
+      border-radius: 10rem;
+    }
+
+    input, textarea {
+      margin: 5px 0;
+      padding: 7px;
+      font-family: 'Roboto Condensed', 'sans-serif';
+    }
+
+    .button-container {
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .cancel {
+      @include button-styles;
+      background-color: var(--purple-color);
+      padding: 0.3rem 2rem 0.3rem 2rem;
+    }
+    
+    .request {
+      @include button-styles;
+      background-color: var(--yellow-color);
+      padding: 0.3rem 2rem 0.3rem 2rem;
+      margin-left: 0.3rem;
+    }
+
+  }
+
+
+}
+
+/* 
+----------------------------------------------
+-------------- FOOTER/COOKIES ----------------
+----------------------------------------------
+*/
+
+
+.cookies-container {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.cookies-container p {
+  font-size: 0.8rem;
+}
+
+footer {
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+
+  .cookies-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  p {
+    margin-left: 0.5rem;
+  }
+  
+  .cookies-buttons {
+    margin-top: 0.4rem;
+    margin-right: 0.8rem;
+  }
+  
+  .accept {
+    @include button-styles;
+    background-color: var(--green-color);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+  }
+  
+  .decline {
+    @include button-styles;
+    background-color: var(--yellow-color);
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin-left: 0.3rem;
+    }
+  
+}
+
+
